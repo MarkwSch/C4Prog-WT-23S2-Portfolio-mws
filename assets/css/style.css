@@ -1,4 +1,3 @@
-/* Mobile Styles (default) */
 body {
 	margin: 0;
 	padding: 0;
@@ -51,12 +50,6 @@ nav {
 	background-color: #fff;
 	color: #333;
   }
-
-aside {
-	min-width: 250px;
-	max-width: 400px;
-	display: flex;
-}
 .grid-container {
 	display: grid;
 	grid-template-columns: auto auto auto;
@@ -68,7 +61,6 @@ aside {
   .grid-container > div {
 	background-color: white;
 	text-align: center;
-	padding: 20px 0;
   }
   
   .item-main {
@@ -80,11 +72,16 @@ aside {
 	grid-column-start: 1;
 	grid-column-end: 3;
   }
+
+  p {
+	padding: 10px;
+  }
   
   .item-column {
 	grid-row-start: 2;
 	grid-row-end: 5;
 	grid-column-start: 3;
+	
   }
 
 footer {
@@ -200,6 +197,49 @@ footer {
 		margin: auto;
 		padding: 20px;
 		background-color: lightgray;
+	}
+
+	.item-column {
+		padding: 0px;
+	  }
+
+	.aside-container {
+		display: grid;
+		height: 100%;
+		grid-template-columns: auto;
+		width: 100%;
+		gap: 3px;
+		background-color: #cccccc;
+	}
+
+	aside {
+		min-width: 250px;
+		max-width: 400px;
+		display: flex;
+		background-color: lightblue;
+	}
+
+	.aside-row {
+		height: max-content;
+	}
+	h2 {
+		background-color: #666666;
+		color: white;
+		padding: 10px;
+		height: auto;
+		text-align: left;
+	}
+	.aside-section {
+		height: 100%;
+		background-color:white;
+	}
+
+	.aside-footer {
+		padding: 5px;
+		background-color: #666666;
+		font-size: 13px;
+		color: white;
+		text-align: left;
 	}
 
 }

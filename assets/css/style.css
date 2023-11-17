@@ -5,7 +5,7 @@ body {
   }
   
 header {
-	background-color: #333;
+	background-color: #3a5a40;
 	color: #fff;
 	text-align: left;
 	width: 100%;
@@ -20,7 +20,7 @@ header h1 {
   }	
   
 nav {
-	background-color: #666666;
+	background-color: #588157;
 	width: 100%;
   }
 	nav ul {
@@ -48,13 +48,13 @@ nav {
   
 	nav a:hover {
 	background-color: #fff;
-	color: #333;
+	color: #3a5a40;
   }
 .grid-container {
 	display: grid;
 	grid-template-columns: auto auto auto;
 	gap: 10px;
-	background-color: lightgray;
+	background-color: #a3b18a;
 	padding: 10px;
   }
   
@@ -66,11 +66,13 @@ nav {
   .item-main {
 	grid-column-start: 1;
 	grid-column-end: 4;
+	width: 100%;
   }
 
   .item-row {
 	grid-column-start: 1;
 	grid-column-end: 3;
+	min-width: 25%;
   }
 
   p {
@@ -85,7 +87,7 @@ nav {
   }
 
 footer {
-	background-color: #333;
+	background-color: #3a5a40;
 	color: #fff;
 	display: inline-flex;
 	width: 100%;
@@ -115,7 +117,7 @@ footer {
   
 	footer a:hover {
 	background-color: #fff;
-	color: #333;
+	color: #3a5a40;
   }
 
   .footer-container {
@@ -141,7 +143,7 @@ footer {
   }
 
   /* Media Query for Mobile */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 	/* Hides the navigation and asides in the mobile view */
 	nav, aside {
 		display: none;
@@ -196,7 +198,7 @@ footer {
 		width: 70%;
 		margin: auto;
 		padding: 20px;
-		background-color: lightgray;
+		background-color: #a3b18a;
 	}
 
 	.item-column {
@@ -216,14 +218,13 @@ footer {
 		min-width: 250px;
 		max-width: 400px;
 		display: flex;
-		background-color: lightblue;
 	}
 
 	.aside-row {
 		height: max-content;
 	}
 	h2 {
-		background-color: #666666;
+		background-color: #588157;
 		color: white;
 		padding: 10px;
 		height: auto;
@@ -235,11 +236,12 @@ footer {
 	}
 
 	.aside-img {
-		width: 100%;
+		min-width: 25%;
+		max-width: 100%;
 	}
 	.aside-footer {
 		padding: 5px;
-		background-color: #666666;
+		background-color: #588157;
 		font-size: 13px;
 		color: white;
 		text-align: left;

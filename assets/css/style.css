@@ -79,7 +79,7 @@ nav {
   
   .item-column {
 	grid-row-start: 2;
-	grid-row-end: 5;
+	grid-row-end: 7;
 	grid-column-start: 3;
 	
   }
@@ -234,6 +234,9 @@ footer {
 		background-color:white;
 	}
 
+	.aside-img {
+		width: 100%;
+	}
 	.aside-footer {
 		padding: 5px;
 		background-color: #666666;

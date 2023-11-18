@@ -141,6 +141,10 @@ footer {
 	align-items: center;
 	text-align: center;
   }
+  .item-img {
+	min-width: 25%;
+	max-width: 100%;
+}
 
   /* Media Query for Mobile */
 @media screen and (max-width: 768px) {
@@ -177,8 +181,12 @@ footer {
 		grid-column-end: 4;
 		padding: 5px;
 		display: flex;
-		width: 100%;
 	  }
+
+	.item-img {
+		min-width: 25%;
+		max-width: 100%;
+	}
 
 	.item-column {
 		grid-row-start: 5;
@@ -240,11 +248,12 @@ footer {
 		background-color:white;
 		padding: 5px;
 	}
-
+	
 	.aside-img {
 		min-width: 25%;
 		max-width: 100%;
 	}
+	
 	.aside-footer {
 		padding: 5px;
 		background-color: #588157;

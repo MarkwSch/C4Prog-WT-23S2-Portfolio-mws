@@ -234,6 +234,12 @@ footer {
 		height: 100%;
 		background-color:white;
 	}
+	.aside-body-api {
+		height: 100%;
+		min-height: 250px;
+		background-color:white;
+		padding: 5px;
+	}
 
 	.aside-img {
 		min-width: 25%;

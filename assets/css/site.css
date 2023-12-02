@@ -898,6 +898,16 @@ video {
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
+.bg-green-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(58 90 64 / var(--tw-bg-opacity));
+}
+
+.bg-green-light {
+  --tw-bg-opacity: 1;
+  background-color: rgb(88 129 87 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#FBFBFB\] {
   --tw-bg-opacity: 1;
   background-color: rgb(251 251 251 / var(--tw-bg-opacity));
@@ -1321,6 +1331,10 @@ video {
 
   .md\:block {
     display: block;
+  }
+
+  .md\:flex {
+    display: flex;
   }
 
   .md\:hidden {

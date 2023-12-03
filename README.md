@@ -18,3 +18,8 @@ Components that I will use in my dashboard
 3. A navigation bar
 4. A footer
 5. Centre content on screen
+
+
+Websites Tested In:
+1. Chrome (Blink)
+2. Firefox (Gecko)

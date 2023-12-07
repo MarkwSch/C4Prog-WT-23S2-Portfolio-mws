@@ -86,6 +86,19 @@ nav {
 	
   }
 
+.hamburger-menu {
+	display: none;
+	position: absolute;
+	height: 50px;
+	top: 0px;
+	right: 0px;
+	margin: 20px;
+	font-size: 50px;
+	color: white;
+	background-color: grey;
+	
+}
+
 footer {
 	background-color: #3a5a40;
 	color: #fff;
@@ -151,6 +164,10 @@ footer {
 	/* Hides the navigation and asides in the mobile view */
 	nav, aside {
 		display: none;
+	}
+
+	.hamburger-menu {
+		display: block;
 	}
 	main {
 		width: 100%;

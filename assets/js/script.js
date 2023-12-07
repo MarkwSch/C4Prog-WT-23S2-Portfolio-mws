@@ -27,4 +27,9 @@ document.getElementById('submitButton').addEventListener('click', function(){
         }
         resultP.innerHTML = formattedDef
     })
+    .catch(error => {
+        // Handle the errors
+        console.error('Error:', error);
+        resultP.innerHTML = "An error occurred. Please try again.";
+    });
 }); 

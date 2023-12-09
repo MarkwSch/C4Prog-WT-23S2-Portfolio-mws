@@ -160,7 +160,7 @@ footer {
 }
 
   /* Media Query for Mobile */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
 	/* Hides the navigation and asides in the mobile view */
 	nav, aside {
 		display: none;
